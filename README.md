@@ -18,7 +18,7 @@ It uses:
 ---
 ## 🎥 Live Demo
 
-🎧 [**Watch the full demo on YouTube**](https://www.youtube.com/watch?v=<YOUR_VIDEO_ID>)
+🎧 [**Watch the full demo on YouTube**](https://youtu.be/CTiTfx301I8)
 
 Experience **Sentiment Aura** in action — a real-time emotion-aware visualization app.
 
