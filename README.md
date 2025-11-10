@@ -16,6 +16,34 @@ It uses:
 - ⚛️ **React** — interactive frontend UI  
 
 ---
+## 🎥 Live Demo
+
+🎧 [**Watch the full demo on YouTube**](https://www.youtube.com/watch?v=<YOUR_VIDEO_ID>)
+
+Experience **Sentiment Aura** in action — a real-time emotion-aware visualization app.
+
+As you speak:
+- 🎙️ Your voice is streamed live to **Deepgram** for instant transcription.  
+- 💬 The text is sent to a **FastAPI backend** that analyzes sentiment using **OpenAI**.  
+- 🌈 The **aura visualization** (built with P5.js) smoothly morphs in color, intensity, and motion  
+  to mirror your emotional tone in real time.
+
+### 🌈 Emotion–Color Mapping
+
+The Sentiment Aura uses **a focused three-tone palette** inspired by natural emotional responses.
+
+| Emotion / Sentiment | Gradient (Primary → Secondary) | Description |
+|----------------------|--------------------------------|--------------|
+| 💛 **Happy** | `#FFD700 → #FFA500` | Warm yellow-orange tones represent optimism, excitement, and energy. |
+| 💙 **Neutral** | `#4A90E2 → #142850` | Deep blue hues convey calmness, introspection, and melancholy. |
+| 💜 **Sad** | `#9B59B6 → #8E44AD` | Gentle violet tones symbolize mental balance and reflection. |
+
+
+This demo shows **Sentiment Aura** capturing speech through the mic,  
+transcribing it via **Deepgram**, analyzing emotions with **OpenAI**,  
+and visualizing the results as a **color-changing aura** that reacts to your tone in real-time.
+
+
 
 ## ⚙️ How to Run the Project Locally
 
@@ -91,7 +119,7 @@ Your voice transcribed into live text
 
 The aura background reacting to your tone
 
-When you stop speaking, the transcript is sent to the backend → analyzed → and aura color changes dynamically.
+---
 
 
 | Issue                        | Cause                            | Fix                                                |
@@ -173,8 +201,8 @@ Here’s how everything interacts:
            │-------------------------------------------│
            │  • Updates sentimentRef in SpeechAura     │
            │  • AuraCanvas transitions color           │
-           │  • Text fades in/out dynamically          │
-           │  • Final aura visual = Emotion feedback   │
+           │  • Text fades in/out dynamically          
+           │   │
            └──────────────────────────────────────────┘
 
 
